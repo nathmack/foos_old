@@ -1,0 +1,67 @@
+stats
+
+* wins / losses
+  * general
+  * red / blue
+
+* position
+  * red / blue
+  * forward / back
+
+* goals scored
+* peg map
+
+
+achievements
+
+
+* peg achievements
+  * Around the world
+    score at least one goal on every peg on the table
+  * red pegs
+    score at least one goal on every red peg
+  * blue pegs
+    score at least one goal on every blue peg
+  * offence pegs
+    score at least one goal on every offence peg
+  * defence pegs
+    score at least one goal on every defence peg
+
+* perfect game
+  win a game 10 - 0
+
+* spin in master
+  get x spin in goals in one game
+
+* come back king
+  come back from a x goal deficit and win
+
+* goal streaks
+  2, 4, 6, 8
+
+* specialist
+  win a game by scoring all your goals from a single peg
+
+* team player
+  win a game by scoring at least one goal on all your pegs
+
+* downtown
+  win a game by scoring all your goals from defence (defence)
+
+* the sprint
+  win a game in under x (3 minutes) minutes
+
+* the marathon
+  play a game that lasts at least x (15 minutes) minutes
+
+* the close call
+  lose by only one point
+
+* lucky duck
+  win a game on an opponent's own goal
+
+* spin and win
+  win a game on a spin in
+
+* MVP
+  score the most goals in any game

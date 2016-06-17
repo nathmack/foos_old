@@ -1,0 +1,41 @@
+get all goals from a game grouped by payer and NULL
+
+SELECT COUNT(*), p.name FROM goals g
+LEFT JOIN players p
+ON g.player_id = p.id
+OR g.player_id = NULL
+WHERE game_id = 212
+GROUP BY g.player_id
+
+
+
+
+SELECT *
+FROM `teams` t
+JOIN goals g
+on g.team_id = t.id
+WHERE t.defence_player_id != t.offence_player_id
+AND g.player_id != ''
+
+
+
+swap teams UPDATE `teams` SET `offence_player_id`=(@temp:=`offence_player_id`), `offence_player_id` = `defence_player_id`, `defence_player_id` = @temp WHERE `id`
+
+
+// get all games for a player
+SELECT *
+FROM `teams`
+WHERE
+(`offence_player_id` = 1 OR `defence_player_id` = 1)
+AND offence_player_id != defence_player_id
+GROUP BY game_id
+
+// loop this to get wins/losses red/blue forward back
+SELECT *, COUNT(g.id)
+FROM teams t
+  JOIN goals g
+  ON g.team_id = t.id
+WHERE
+(t.offence_player_id = 1 OR t.defence_player_id = 1)
+AND t.offence_player_id != t.defence_player_id
+GROUP BY t.game_id

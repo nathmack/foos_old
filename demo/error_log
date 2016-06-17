@@ -1,0 +1,15 @@
+[05-Jun-2016 21:11:22 Australia/Melbourne] PHP Warning:  include(../index.php): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:11:22 Australia/Melbourne] PHP Warning:  include(../index.php): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:11:22 Australia/Melbourne] PHP Warning:  include(): Failed opening '../index.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:12:17 Australia/Melbourne] PHP Warning:  include(/foos/index.php): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:12:17 Australia/Melbourne] PHP Warning:  include(): Failed opening '/foos/index.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:12:38 Australia/Melbourne] PHP Warning:  include(/foos/index.html): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:12:38 Australia/Melbourne] PHP Warning:  include(): Failed opening '/foos/index.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:14:33 Australia/Melbourne] PHP Warning:  include(foos/index.html): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:14:33 Australia/Melbourne] PHP Warning:  include(foos/index.html): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:14:33 Australia/Melbourne] PHP Warning:  include(): Failed opening 'foos/index.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/legacyfr/public_html/foos/demo/index.php on line 1
+[05-Jun-2016 21:18:20 Australia/Melbourne] PHP Warning:  include(foos/index.html): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 2
+[05-Jun-2016 21:18:20 Australia/Melbourne] PHP Warning:  include(foos/index.html): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 2
+[05-Jun-2016 21:18:20 Australia/Melbourne] PHP Warning:  include(): Failed opening 'foos/index.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/legacyfr/public_html/foos/demo/index.php on line 2
+[05-Jun-2016 21:18:38 Australia/Melbourne] PHP Warning:  include(/foos/index.html): failed to open stream: No such file or directory in /home/legacyfr/public_html/foos/demo/index.php on line 2
+[05-Jun-2016 21:18:38 Australia/Melbourne] PHP Warning:  include(): Failed opening '/foos/index.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/legacyfr/public_html/foos/demo/index.php on line 2

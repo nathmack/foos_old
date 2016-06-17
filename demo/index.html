@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>foos</title>
+  <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/foos/reset.css?version=1">
+  <link rel="stylesheet" type="text/css" href="/foos/styles.css?version=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="container blue" id="container">
+    <div class="header">
+      <div class="score large-text flex">
+        <div id="team-1-score" class="s1">0</div>
+        <div class="devider"></div>
+        <div id="team-2-score" class="s2">0</div>
+      </div>
+      <div class="options">
+        <div id="options" class="goal-options button">Goal type <img width="16px" height="16px" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png"></img></div>
+        <div id="goal" class="goal button">Goal!</div>
+      </div>
+      <div class="flex">
+        <div class="time large-text" id="clock">00:00</div>
+      </div>
+    </div>
+    <div class="field blue" id="field">
+      <div class="group">
+        <div class="peg" data-id="1">
+        </div>
+      </div>
+      <div class="group">
+        <div class="peg" data-id="2">
+        </div>
+        <div class="peg" data-id="3">
+        </div>
+      </div>
+      <div id="toggle-options" class="goal-type collapse">
+        <div class="goal-option" data-id="0">
+          Back half
+        </div>
+        <div class="goal-option" data-id="1">
+          Forward half
+        </div>
+        <div class="goal-option" data-id="2">
+          own goal
+        </div>
+        <div class="goal-option" data-id="3">
+          spin in
+        </div>
+      </div>
+      <div class="group">
+        <div class="peg" data-id="4">
+        </div>
+        <div class="peg" data-id="5">
+        </div>
+        <div class="peg" data-id="6">
+        </div>
+        <div class="peg" data-id="7">
+        </div>
+        <div class="peg" data-id="8">
+        </div>
+      </div>
+      <div class="group">
+        <div class="peg" data-id="9">
+        </div>
+        <div class="peg" data-id="10">
+        </div>
+        <div class="peg" data-id="11">
+        </div>
+      </div>
+    </div>
+
+
+    <dir id="popup-text" class="hide">
+    </dir>
+  </div>
+  <script type='application/javascript' src='/foos/fastclick.js?version=1'></script>
+  <script type="text/javascript" src="/foos/demo-js.js?version=1" ></script>
+</body>
+</html>

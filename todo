@@ -1,0 +1,31 @@
+Todo:
+
+* draw goal lines / selection boxes based on goal type
+* make goal active/inactive
+
+* make a timeout after X minutes of inactivity
+* redirect to home screen on game timeout
+* render different home page if game is active
+* add ability to cancel game that is in progress
+* add countdown sounds
+* don't allow both teams to select same colour
+* fix timer / countdown
+
+
+In progress:
+
+* pull out player stats
+
+Done:
+
+* fix select bug
+* improve player selection (1)
+* colour scores
+* UI controls
+* close abandoned games
+* change render handling
+* prevent score from exceeding 10
+* score feedback on submitters end
+* update score on goal POST response
+* debug goals not registering *** possibly not resolved ***
+* repair player id's in database
